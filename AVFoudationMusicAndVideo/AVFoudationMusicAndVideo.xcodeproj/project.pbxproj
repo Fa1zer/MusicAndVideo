@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E3E28FA827318BEA00068BD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E28FA727318BEA00068BD0 /* AppDelegate.swift */; };
+		E3E28FAA27318BEA00068BD0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E28FA927318BEA00068BD0 /* SceneDelegate.swift */; };
+		E3E28FB127318BEE00068BD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3E28FB027318BEE00068BD0 /* Assets.xcassets */; };
+		E3E28FB427318BEE00068BD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3E28FB227318BEE00068BD0 /* LaunchScreen.storyboard */; };
+		E3E28FBC27318CA900068BD0 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E28FBB27318CA900068BD0 /* NavigationController.swift */; };
+		E3E28FBE27318CF400068BD0 /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E28FBD27318CF400068BD0 /* MusicViewController.swift */; };
+		E3E28FC027318D5000068BD0 /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E28FBF27318D5000068BD0 /* VideoTableViewCell.swift */; };
+		E3E28FC327318DAA00068BD0 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E28FC227318DAA00068BD0 /* Music.swift */; };
+		E3E28FC527318E4000068BD0 /* Rap God.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E3E28FC427318E4000068BD0 /* Rap God.mp3 */; };
+		E3E28FC727318E5400068BD0 /* Not Afraid.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E3E28FC627318E5400068BD0 /* Not Afraid.mp3 */; };
+		E3E28FC927318E7200068BD0 /* Godzilla.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E3E28FC827318E7200068BD0 /* Godzilla.mp3 */; };
+		E3E28FCB27318E9B00068BD0 /* Love The Way You Lie.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E3E28FCA27318E9B00068BD0 /* Love The Way You Lie.mp3 */; };
+		E3E28FCD27318EB400068BD0 /* Lose Yourself.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E3E28FCC27318EB400068BD0 /* Lose Yourself.mp3 */; };
+		E3E28FD027318EE600068BD0 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E28FCF27318EE600068BD0 /* Video.swift */; };
+		E3E28FD227318F2200068BD0 /* Videos.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E28FD127318F2200068BD0 /* Videos.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E3E28FA427318BEA00068BD0 /* AVFoudationMusicAndVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVFoudationMusicAndVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3E28FA727318BEA00068BD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E3E28FA927318BEA00068BD0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E3E28FB027318BEE00068BD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3E28FB327318BEE00068BD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E3E28FB527318BEE00068BD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3E28FBB27318CA900068BD0 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		E3E28FBD27318CF400068BD0 /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
+		E3E28FBF27318D5000068BD0 /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
+		E3E28FC227318DAA00068BD0 /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		E3E28FC427318E4000068BD0 /* Rap God.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Rap God.mp3"; sourceTree = "<group>"; };
+		E3E28FC627318E5400068BD0 /* Not Afraid.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Not Afraid.mp3"; sourceTree = "<group>"; };
+		E3E28FC827318E7200068BD0 /* Godzilla.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Godzilla.mp3; sourceTree = "<group>"; };
+		E3E28FCA27318E9B00068BD0 /* Love The Way You Lie.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Love The Way You Lie.mp3"; sourceTree = "<group>"; };
+		E3E28FCC27318EB400068BD0 /* Lose Yourself.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lose Yourself.mp3"; sourceTree = "<group>"; };
+		E3E28FCF27318EE600068BD0 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		E3E28FD127318F2200068BD0 /* Videos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Videos.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3E28FA127318BEA00068BD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E3E28F9B27318BEA00068BD0 = {
+			isa = PBXGroup;
+			children = (
+				E3E28FA627318BEA00068BD0 /* AVFoudationMusicAndVideo */,
+				E3E28FA527318BEA00068BD0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E3E28FA527318BEA00068BD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3E28FA427318BEA00068BD0 /* AVFoudationMusicAndVideo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3E28FA627318BEA00068BD0 /* AVFoudationMusicAndVideo */ = {
+			isa = PBXGroup;
+			children = (
+				E3E28FCE27318ED300068BD0 /* Video */,
+				E3E28FC127318D9800068BD0 /* Music */,
+				E3E28FD32731906E00068BD0 /* Navigation */,
+				E3E28FA927318BEA00068BD0 /* SceneDelegate.swift */,
+				E3E28FA727318BEA00068BD0 /* AppDelegate.swift */,
+				E3E28FB027318BEE00068BD0 /* Assets.xcassets */,
+				E3E28FB227318BEE00068BD0 /* LaunchScreen.storyboard */,
+				E3E28FB527318BEE00068BD0 /* Info.plist */,
+			);
+			path = AVFoudationMusicAndVideo;
+			sourceTree = "<group>";
+		};
+		E3E28FC127318D9800068BD0 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				E3E28FBD27318CF400068BD0 /* MusicViewController.swift */,
+				E3E28FC227318DAA00068BD0 /* Music.swift */,
+				E3E28FC627318E5400068BD0 /* Not Afraid.mp3 */,
+				E3E28FC827318E7200068BD0 /* Godzilla.mp3 */,
+				E3E28FCA27318E9B00068BD0 /* Love The Way You Lie.mp3 */,
+				E3E28FCC27318EB400068BD0 /* Lose Yourself.mp3 */,
+				E3E28FC427318E4000068BD0 /* Rap God.mp3 */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		E3E28FCE27318ED300068BD0 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				E3E28FBF27318D5000068BD0 /* VideoTableViewCell.swift */,
+				E3E28FCF27318EE600068BD0 /* Video.swift */,
+				E3E28FD127318F2200068BD0 /* Videos.swift */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		E3E28FD32731906E00068BD0 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				E3E28FBB27318CA900068BD0 /* NavigationController.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3E28FA327318BEA00068BD0 /* AVFoudationMusicAndVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3E28FB827318BEE00068BD0 /* Build configuration list for PBXNativeTarget "AVFoudationMusicAndVideo" */;
+			buildPhases = (
+				E3E28FA027318BEA00068BD0 /* Sources */,
+				E3E28FA127318BEA00068BD0 /* Frameworks */,
+				E3E28FA227318BEA00068BD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AVFoudationMusicAndVideo;
+			productName = AVFoudationMusicAndVideo;
+			productReference = E3E28FA427318BEA00068BD0 /* AVFoudationMusicAndVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3E28F9C27318BEA00068BD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					E3E28FA327318BEA00068BD0 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = E3E28F9F27318BEA00068BD0 /* Build configuration list for PBXProject "AVFoudationMusicAndVideo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E3E28F9B27318BEA00068BD0;
+			productRefGroup = E3E28FA527318BEA00068BD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3E28FA327318BEA00068BD0 /* AVFoudationMusicAndVideo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3E28FA227318BEA00068BD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3E28FB427318BEE00068BD0 /* LaunchScreen.storyboard in Resources */,
+				E3E28FC727318E5400068BD0 /* Not Afraid.mp3 in Resources */,
+				E3E28FB127318BEE00068BD0 /* Assets.xcassets in Resources */,
+				E3E28FCD27318EB400068BD0 /* Lose Yourself.mp3 in Resources */,
+				E3E28FC927318E7200068BD0 /* Godzilla.mp3 in Resources */,
+				E3E28FC527318E4000068BD0 /* Rap God.mp3 in Resources */,
+				E3E28FCB27318E9B00068BD0 /* Love The Way You Lie.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3E28FA027318BEA00068BD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3E28FBE27318CF400068BD0 /* MusicViewController.swift in Sources */,
+				E3E28FD227318F2200068BD0 /* Videos.swift in Sources */,
+				E3E28FA827318BEA00068BD0 /* AppDelegate.swift in Sources */,
+				E3E28FBC27318CA900068BD0 /* NavigationController.swift in Sources */,
+				E3E28FAA27318BEA00068BD0 /* SceneDelegate.swift in Sources */,
+				E3E28FC027318D5000068BD0 /* VideoTableViewCell.swift in Sources */,
+				E3E28FD027318EE600068BD0 /* Video.swift in Sources */,
+				E3E28FC327318DAA00068BD0 /* Music.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E3E28FB227318BEE00068BD0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3E28FB327318BEE00068BD0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E3E28FB627318BEE00068BD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E3E28FB727318BEE00068BD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3E28FB927318BEE00068BD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AVFoudationMusicAndVideo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bdfg.AVFoudationMusicAndVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E3E28FBA27318BEE00068BD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AVFoudationMusicAndVideo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bdfg.AVFoudationMusicAndVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3E28F9F27318BEA00068BD0 /* Build configuration list for PBXProject "AVFoudationMusicAndVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3E28FB627318BEE00068BD0 /* Debug */,
+				E3E28FB727318BEE00068BD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3E28FB827318BEE00068BD0 /* Build configuration list for PBXNativeTarget "AVFoudationMusicAndVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3E28FB927318BEE00068BD0 /* Debug */,
+				E3E28FBA27318BEE00068BD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E3E28F9C27318BEA00068BD0 /* Project object */;
+}
